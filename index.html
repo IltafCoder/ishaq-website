@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title>Ishaq Khan — Professional Python Developer | Home</title>
+</head>
+
+<body>
+    
+    <div class="header">
+        <nav>
+            <div>
+                <ul class="nav-bar-ul">
+                    <li><a href="#services" class="smooth-scroll" id="services-tab">Services</a></li>
+                    <li><a href="#testimonials" class="smooth-scroll" id="testimonials-tab">Testimonials</a></li>
+                    <li><a href="#top-clients" class="smooth-scroll" id="top-clients-tab">Top&nbsp;Clients</a></li>
+                    <li><a href="#portfolio-items" class="smooth-scroll" id="portfolio-items-tab">Portfolio&nbsp;Items</a></li>
+                    <li><a href="#commercial-software" class="smooth-scroll" id="com-soft-tab">Commercial&nbsp;Software</a></li>
+                    <li><a href="#about-me" class="smooth-scroll" id="about-me-tab">About&nbsp;Me</a></li>
+                    <div class="nav-icons">
+                        <a href="#services" class="smooth-scroll" id="services-tab"><i class="bi bi-sliders"></i></a>
+                        <a href="#testimonials" class="smooth-scroll" id="testimonials-tab"><i class="bi bi-star-half"></i></a>
+                        <a href="#top-clients" class="smooth-scroll" id="top-clients-tab"><i class="fa fa-users"></i></a>
+                        <a href="#portfolio-items" class="smooth-scroll" id="portfolio-items-tab"><i class="fa fa-briefcase"></i></a>
+                        <a href="#commercial-software" class="smooth-scroll" id="com-soft-tab"><i class="bi bi-cart"></i></a>
+                        <a href="#about-me" class="smooth-scroll" id="about-me-tab"><i class="bi bi-info-circle"></i></a>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <button id="btn-hire-me" onclick="showForm('index')"><i class="bi bi-person-check"></i>Hire Me</button>
+                <button class="direct-access">You cannot contact me from this website</button>
+            </div>
+
+        </nav>
+        <div class="services parallax" id="services">
+            <div class="my-pic">
+                <img src="assets/header-image.png" alt="">
+            </div>
+            <div class="service-title">
+                <div>
+                    <p>Hello from Ishaq! I will do</p>
+                </div>
+                <div>
+                    <p class="cd-headline clip is-full-width">
+                        <!-- ROTATING TEXT -->
+                        <span class="cd-words-wrapper" style="width: 450px;">
+                          <b class="is-visible">Data Manipulation</b>
+                          <b class="is-hidden">PDF Manipulation</b>
+                          <b class="is-hidden">Media Files Manipulation</b>
+                          <b class="is-hidden">Filesystem Manipulation</b>
+                          <b class="is-hidden">Robotic Process Automation</b>
+                        </span>
+                        <!-- STATIC TEXT -->
+                        <div class="cursor blinking"></div>
+                    </p>
+                    <!-- <p class="auto-type"></p><span class="cursor"></span> -->
+                </div>
+                <div>
+                    <p>In Python Programming</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="testimonials parallax" id="testimonials">
+        <div class="testimonials-header">
+            <p><i class="bi bi-star-half header-icons"></i>Testimonials</p>
+            <div>
+                <a href="./testimonials.html">View All</a><button><i class="bi bi-arrow-right"></i></button>
+            </div>
+
+        </div>
+        <div class="testimonials-list">
+
+            <div class="testimonial-txt">
+                <div>
+                    <img src="assets/paul.png" alt="">
+                </div>
+                <div>
+                    <span>“</span>
+                    <div>
+                        <p>Excellent and genuine guy, knows his stuff and delivered everything as promised in amazing time, great communication and will definitely use his services again, too class!<i>”</i></p>
+                        <p>Paul Day — Director at Elektrotech Ltd</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-txt">
+                <div>
+                    <img src="assets/mario.jpg" alt="">
+                </div>
+                <div>
+                    <span>“</span>
+                    <div>
+                        <p>This is the first time I've commissioned an application, and working with Ishaq was an absolute pleasure. He was positive and confident from the start - but also patient to fully understand my requirements. Ishaq is clearly knowledgeable with both Windows and Macs, and very adept at compiling code and creating functional applications.<i>”</i></p>
+                        <p>Mario Di Maggio — Founder of Dome Club Ltd</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-txt">
+                <div>
+                    <img src="assets/thomas.jpg" alt="">
+                </div>
+                <div>
+                    <span>“</span>
+                    <div>
+                        <p>This task was much more complex than previous tasks that we contracted to Ishaq and he knocked it out the park. Always a pleasure to work with him.<i>”</i></p>
+                        <p>Thomas Dionne — General Manager at Kîsik Aerial Survey Inc.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-txt">
+                <div>
+                    <img src="assets/markus.jpg" alt="">
+                </div>
+                <div>
+                    <span>“</span>
+                    <div>
+                        <p>Very capable person who knows exactly what he is doing. Developed a great GUI and also helped a lot to set up a complicated backend (AI/machine learning involved) so that the entire workflow works. Can highly recommend, will come back for more work.<i>”</i></p>
+                        <p>Markus Loinig — Founder of Senzoro</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-txt">
+                <div>
+                    <img src="assets/david.jpg" alt="">
+                </div>
+                <div>
+                    <span>“</span>
+                    <div>
+                        <p>Ishaq did an amazing job on this project. He worked on prototypes of ideas that I wasn't sure were possible in wxWidgets/wxPython and did a great job. He also had great knowledge of the framework that was very helpful. He was easy to communicate with and very timely with his responses. I would recommend him to anyone.<i>”</i></p>
+                        <p>David Hamrick — Partner at Hamrick Software</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="top-clients parallax" id="top-clients">
+        <div class="top-clients-header">
+            <p><i class="fa fa-users header-icons" style="bottom: 1px; font-size: 0.8rem"></i>Top Clients</p>
+            <div>
+                <a href="./top-clients.html">View All</a><button><i class="bi bi-arrow-right"></i></button>
+            </div>
+
+        </div>
+        <div class="top-clients-list">
+            <div class="top-client-info">
+                <div style="background: white;">
+                    <img src="assets/ebz_business_school_gmbh.svg" alt="" style="background: white">
+                </div>
+                
+                <p id="company-name">EBZ Business School GmbH</p>
+                <p>The EBZ Business School - University of Applied Sciences is a state-recognised, private university of applied sciences based in Bochum. It is also represented with a study center in Hamburg. It is supported by the EBZ Foundation under the sponsorship of the GdW Federal Association of German Housing and Real Estate Companies and the Rhineland-Westphalia Association of Housing Industry and the Federal Association of Independent Real Estate and Housing Companies BFW. <a href="https://ebz-business-school.de/" target="_blank" class="links">↗ Visit&nbsp;website</a></p>
+                    
+            </div>
+
+            <div class="top-client-info">
+                <div style="background: #ab9292;">
+                    <img src="assets/kisik_aerial_survey.png" alt="" style="background: #ab9292">
+                </div>
+                
+                <p id="company-name">Kîsik Aerial Survey Inc.</p>
+                <p>Kîsik Aerial Survey Inc. provides reliable, high quality aerial surveying for Geospatial users throughout Western Canada and the Northwest United States. We operate turbocharged Piper Aztec and Piper Navajo twin engine aircraft, equipped with state-of-the-art digital camera and LiDAR sensors and the latest in high precision GPS/IMU technology. Kîsik Aerial Survey Inc. Kîsik provides airborne photo and LiDAR acquisition services directly to Governmental, Environmental, Mapping, Engineering, Resource, Utility and Geospatial users in both Canada and the United States.<a href="https://kisik.ca/" target="_blank" class="links">↗ Visit&nbsp;website</a></p>
+            </div>
+
+            <div class="top-client-info">
+                <div style="background: white;">
+                    <img src="assets/dome_club_ltd.png" alt="" style="background: white">
+                </div>
+                
+                <p id="company-name">Dome Club Ltd</p>
+                <p>Quality Digital and Non-Digital Domes for shared immersive experiences. We are agents for Advanced Sensory Education & Entertainment (ASE), Go-Dome and ePlanetarium, as well as fulldome (360°) film distributors for Mirage3D, Spitz Inc., AVI, Discovery Dome, Starlight Productions and Aayushi Animations.<a href="https://discoverydome.eu/" target="_blank" class="links">↗ Visit&nbsp;website</a></p>
+            </div>
+
+            <div class="top-client-info">
+                <div style="background: white;">
+                    <img src="assets/k9_tactical_gear.jpg" alt="" style="background: white">
+                </div>
+                
+                <p id="company-name">K9 Tactical Gear</p>
+                <p>Family-Owned-and-Operated Since 1986. Custom made high quality K9 equipment. K9 Tactical Gear specializes in creating and improving new and innovative equipment. Explore our harnesses, collars, leashes, leather leads, Biothane beta, and more. Never settle for anything less than the best for your dog or working K9.<a href="https://k9tacticalgear.com/" target="_blank" class="links">↗ Visit&nbsp;website</a></p>
+            </div>
+
+            <div class="top-client-info">
+                <div style="background: black;">
+                    <img src="assets/kreissage.png" alt="" style="background: black">
+                </div>
+                
+                <p id="company-name">Kreissage LLC</p>
+                <p>Kreissage is an engineering firm located in Colorado born in 2019. Inspired by life experience, fueled by hardwork and passion, we work to design, create and produce audio products which we are proud of for folks who we believe in.<a href="https://kreissage.com/" target="_blank" class="links">↗ Visit&nbsp;website</a></p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="portfolio-items parallax" id="portfolio-items">
+        <div class="portfolio-items-header">
+            <p><i class="fa fa-briefcase header-icons" style="bottom: 2px; font-size: 0.9rem"></i>Portfolio Items</p>
+            <div>
+                <a href="./portfolio.html">View All</a><button><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="portfolio-items-list">
+            <div class="portfolio-itm">
+                <p>MULTICONVERTER</p>
+                <div class="portfolio-imgs">
+                    <div>
+                        <img src="assets/mc_img_01.png" alt="">
+                        <a href="assets/mc_img_01.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="assets/mc_img_02.png" alt="">
+                        <a href="assets/mc_img_02.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="assets/mc_img_03.png" alt="">
+                        <a href="assets/mc_img_03.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <p>A converter tool build for Windows to handle conversion between common file types. It can convert between common media and document files. It works in batch. Once a source folder is selected, it can detected automatically which files it can process, and will list options accordingly.</p>
+                </div>
+
+                <div class="portfolio-pagination">
+                    <span style="background-color: #6bcefb;"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+    
+            </div>
+    
+            <div class="portfolio-itm">
+                <p>Therese CSV Manipulate</p>
+                <div class="portfolio-imgs">
+                    <div>
+                        <img src="assets/tcm_img_01.png" alt="">
+                        <a href="assets/tcm_img_01.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="assets/tcm_img_02.png" alt="">
+                        <a href="assets/tcm_img_02.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="assets/tcm_img_03.png" alt="">
+                        <a href="assets/tcm_img_03.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <p>A complex custom solution for a client. It takes user data from single CSV file, or load a folder of CSV files and some other input file. It then allows the modification from the user interface. It then generates output report in excel spreadsheet and multi-paged PDF file.</p>
+                </div>
+
+                <div class="portfolio-pagination">
+                    <span></span>
+                    <span style="background-color: #6bcefb;"></span>
+                    <span></span>
+                </div>
+    
+            </div>
+
+            <div class="portfolio-itm">
+                <p>Bulk Video Randomizer</p>
+                <div class="portfolio-imgs">
+                    <div>
+                        <img src="assets/bvr_img_01.png" alt="">
+                        <a href="assets/bvr_img_01.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="assets/bvr_img_02.png" alt="">
+                        <a href="assets/bvr_img_02.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <p>A custom solution to generate randomized videos in bulk. It'll take folder of source videos. For each output video, will pick randomly a user defined number of clips. Will also let insert clips manually from different directories. It'll select randomly output video bitrate and playback speed, in user defined ranges. It also has a section to normalize videos. That is, it applies same settings to each video, in user defined directory.</p>
+                </div>
+
+                <div class="portfolio-pagination">
+                    <span></span>
+                    <span></span>
+                    <span style="background-color: #6bcefb;"></span>
+                </div>
+    
+            </div>
+
+        </div>
+              
+    </div>
+
+    <div class="com-soft parallax" id="commercial-software">
+        <div class="com-soft-header">
+            <p><i class="bi bi-cart header-icons" style="bottom: 5px;"></i>Commercial Software</p>
+            <div>
+                <a href="./commercial-software.html">View All</a><button><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="com-soft-list">
+            <div class="soft-itm">
+                <p>Unit Converter</p>
+                <div class="soft-imgs">
+                    <div>
+                        <img src="./weather 2.png" alt="">
+                        <a href="/weather 2.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="./weather 2.png" alt="">
+                        <a href="/weather 2.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                    <div>
+                        <img src="./weather 2.png" alt="">
+                        <a href="/weather 2.png" class="links" target="_blank">↗ View enlarged</a>
+                    </div>
+                </div>
+                <div class="soft-desc">
+                    <p>Lorem, ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolorum illo ut assumenda. Dignissimos dolores consequatur recusandae quod, quasi repellendus sapiente inventore libero nemo quisquam. Impedit illo magni sint dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero iusto placeat voluptatem cum laborum nobis quos dolor earum fugiat corporis impedit totam tempore explicabo, repudiandae recusandae nisi, vitae cumque numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus soluta aspernatur cupiditate mollitia. Impedit eligendi voluptates quas possimus saepe sapiente maxime eveniet at laborum quaerat porro, iste, magni distinctio in! dolor sit amet consectetur adipisicing elit. Soluta, autem beatae! Eligendi, nemo tempore harum obcaecati, incidunt in delectus exercitationem recusandae optio debitis neque porro, accusamus deleniti assumenda corporis. Enim.</p>
+                </div>
+
+                <div class="soft-pagination">
+                    <span style="background-color: #6bcefb;"></span>
+                    <span></span>
+                </div>
+    
+            </div>
+    
+            <div class="soft-itm">
+                <p>ScreenSaver</p>
+                <div class="soft-imgs">
+                    <div id="abc">
+                        <img src="./color.png" alt="">
+                        <div>
+                            <a href="./color.png" class="links" target="_blank">↗ View enlarged</a>
+                        </div>
+
+                    </div>
+                    <div>
+                        <img src="./color.png" alt="">
+                        <div>
+                            <a href="./color.png" class="links" target="_blank">↗ View enlarged</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="soft-desc">
+                    <p>Lorem, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius molestias, omnis quos ea magnam aliquid distinctio mollitia illo est assumenda fugiat dolores. Reprehenderit quidem quas pariatur placeat autem officia et. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sequi soluta id incidunt a! Ipsum cumque, fugit aliquid iusto dolorem, quae amet porro vitae iure accusamus magni eveniet beatae totam. ipsum dolor sit amet consectetur adipisicing elit. Soluta, autem beatae! Eligendi, nemo tempore harum obcaecati, incidunt in delectus exercitationem recusandae optio debitis neque porro, accusamus deleniti assumenda corporis. Enim.</p>
+                </div>
+
+                <div class="soft-pagination">
+                    <span></span>
+                    <span style="background-color: #6bcefb;"></span>
+                </div>
+    
+            </div>
+
+
+        </div>
+        
+        
+    </div>
+
+    <div class="about-me parallax" id="about-me">
+        <div class="about-me-header">
+            <i class="bi bi-info-circle header-icons" style="bottom: 1px"></i><p>About Me</p>
+        </div>
+        <div class="about-me-txt">
+            <div id="about-me-pic">
+                <video controls>
+                    <source src="assets/my_intro.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <p>Hi there, this is Ishaq from Pakistan. Thanks for your interest in viewing my profile. Basically, I'm computer programmer working as self-employed, where I avail my services in many giant online marketplaces; as well as running my own software store, where I publish utility software. I am making my way to avail my software to Mac users as well.
+                    <br><br>
+                    After facing physical disability intensification, I had to quit my school at 10th grade, and started learning Python at home alone. While learning basics, I even had no internet. After few years of learning through practice, in 6 Apr 2019, I started looking for online one-time jobs. After few months of searching, I received first contract with a client. And from that time on, till yet, I have delivered hundreds of projects to different clients around the globe. I've 99.99% rate of all five star reviews, of all time.
+                    <br><br>
+                    During my successful freelancing career, I stared submitting some software I developed even before freelancing; and some developed during freelancing career. Some software is available for free. Most offers trial versions to evaluate, and paid versions to buy if you like the software after evaluation. As of now, I have received thousands of downloads, in total, of all time. I am also making my way to avail my software to Mac users as well.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <div>
+            <div>
+                <img src="assets/footer-image.png" alt="">
+                <p>Ishaq Khan Website</p>
+            </div>
+            <div>
+                <p> | </p>
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hire-form">
+        <div>
+            <i class="bi bi-x" onclick="hideForm()"></i>
+        </div>
+        <h1>Hire Me</h1>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td style="width: 10%;">
+                        <label for="name">Name</label>
+                    </td>
+                    <td style="width: 90%;">
+                        <input type="text" id="name" name="name" required>
+                        <i class="bi bi-person-circle form-icons" id="user-icon"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" required>
+                        <i class="fa fa-lock form-icons" style="bottom: 0; font-size: 0.9rem" id="email-icon"></i>
+                    </td>
+                </tr>
+                <tr id="msg-holder">
+                    <td>
+                        <label for="message">Message</label>
+                    </td>
+                    <td>
+                        <textarea id="message" name="message" required></textarea>
+                    </td>
+                </tr>
+            </table>
+
+            <div id="form-submit">
+                <i class="fa fa-paper-plane form-icons" style="left: 14%; bottom: -4px; pointer-events: none;"></i>
+                <input type="submit" value="     Send">
+            </div>
+    
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio possimus provident vel doloremque? Id, provident! A iste quae vitae quia ad dolores doloribus harum consectetur, recusandae nisi corrupti saepe voluptatum!</p>
+            </div>
+    
+        </form>
+    </div>
+
+</body>
+
+</html>
